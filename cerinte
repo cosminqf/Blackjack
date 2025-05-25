@@ -6,7 +6,6 @@ moșteniri ✅
 funcții virtuale
 excepții (și handling de excepții) ✅
 dynamic_cast sau static_cast => va trebui să folosiți pointeri
-mostenire diamant
 bonus points: o clasă abstractă
 minim o funcție șablon și o clasă șablon (template)
 modificați o clasă existentă care este ceva mai izolată de celelalte (să nu aveți foarte mult de modificat) și transformați-o în clasă template
