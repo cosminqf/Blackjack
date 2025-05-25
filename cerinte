@@ -4,7 +4,7 @@ destructori ✅
 supraîncărcare de operatori (inclusiv operatorii >> -- citire și << -- afișare) ✅
 moșteniri ✅
 funcții virtuale
-excepții (și handling de excepții)
+excepții (și handling de excepții) ✅
 dynamic_cast sau static_cast => va trebui să folosiți pointeri
 mostenire diamant
 bonus points: o clasă abstractă
