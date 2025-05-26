@@ -3,10 +3,9 @@ constructori ✅
 destructori ✅
 supraîncărcare de operatori (inclusiv operatorii >> -- citire și << -- afișare) ✅
 moșteniri ✅
-funcții virtuale
+funcții virtuale✅
 excepții (și handling de excepții) ✅
 dynamic_cast sau static_cast => va trebui să folosiți pointeri
-bonus points: o clasă abstractă
 minim o funcție șablon și o clasă șablon (template)
 modificați o clasă existentă care este ceva mai izolată de celelalte (să nu aveți foarte mult de modificat) și transformați-o în clasă template
 adăugați (minim) un atribut de tip T sau care depinde de T
