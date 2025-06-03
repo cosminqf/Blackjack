@@ -1,13 +1,21 @@
 câmpuri + metode publice și private ✅
-constructori ✅
-destructori ✅
-supraîncărcare de operatori (inclusiv operatorii >> -- citire și << -- afișare) ✅
-moșteniri ✅
-funcții virtuale✅
-excepții (și handling de excepții) ✅
-dynamic_cast sau static_cast => va trebui să folosiți pointeri - nu am unde  dar am folosit static pentru a schimba tipul unei variabile deci kinda ✅
-minim o funcție șablon și o clasă șablon (template)
-adăugați (minim) un atribut de tip T sau care depinde de T
-adăugați (minim) o funcție membru care să depindă de T (sau de alt parametru template);
-adăugați (minim) o funcție normală/liberă template; poate să fie friend
-minim 2 design patterns (3 dacă aveți singleton sau ceva la fel de simplu și proiectul e simplu); utilizarea acestor design patterns ar trebui să aibă sens
+* câmpuri + metode publice și private ✅
+* constructori ✅
+* destructori ✅
+* supraîncărcare de operatori (inclusiv operatorii >> -- citire și << -- afișare) ✅
+* moșteniri ✅
+* funcții virtuale✅
+* excepții (și handling de excepții) ✅
+* dynamic_cast sau static_cast => va trebui să folosiți pointeri - nu am unde  dar am folosit static pentru a schimba tipul unei variabile deci kinda ✅
+* optional: puteți include moșteniri tip diamant aici în loc de tema 3
+* bonus points: o clasă abstractă ✅
+* folosirea coerentă și motivată a specificatorilor de acces (private, protected, public) ✅
+* folosirea coerentă și motivată a const și referință (&) ✅
+* teste ✅
+* să nu aveți memorie reziduală (memory leaks), în caz că faceți alocări dinamice - CRED ✅
+* minim o funcție șablon și o clasă șablon (template)
+    * modificați o clasă existentă care este ceva mai izolată de celelalte (să nu aveți foarte mult de modificat) și transformați-o în clasă template
+    * adăugați (minim) un atribut de tip T sau care depinde de T
+    * adăugați (minim) o funcție membru care să depindă de T (sau de alt parametru template);
+    * adăugați (minim) o funcție normală/liberă template; poate să fie friend
+* minim 2 design patterns (3 dacă aveți singleton sau ceva la fel de simplu și proiectul e simplu); utilizarea acestor design patterns ar trebui să aibă sens
