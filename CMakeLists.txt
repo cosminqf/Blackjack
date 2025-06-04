@@ -10,9 +10,7 @@ find_package(SFML 2.6 COMPONENTS graphics window system audio REQUIRED)
 include_directories(headers)
 
 add_executable(blackjack
-        src/main.cpp
-        src/Menu.cpp
-        headers/Menu.h
+        main.cpp
         src/Card.cpp
         headers/Card.h
         src/Deck.cpp
@@ -23,6 +21,13 @@ add_executable(blackjack
         headers/Dealer.h
         src/Game.cpp
         headers/Game.h
+        src/Participant.cpp
+        headers/Participant.h
+        headers/ConfigOption.h
+        src/Settings.cpp
+        headers/Settings.h
+        src/Rules.cpp
+        headers/Rules.h
 )
 
 target_link_libraries(blackjack PRIVATE
