@@ -106,10 +106,12 @@ int main() {
         std::cout << "Choose an option: ";
 
         std::cin >> choice;
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
         while (std::cin.fail() || choice < 0 || choice > 3) {
             std::cout << "Invalid option. Please choose a number between 0 and 3: ";
             std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
             std::cin >> choice;
         }
 
@@ -128,6 +130,8 @@ int main() {
             case 2: {
                 std::cout << "RULES\n";
                 rules.displayGameRules();
+                std::cout << "Press Enter to return to menu\n";
+                std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                 break;
             }
             case 3: {
@@ -140,10 +144,12 @@ int main() {
                     std::cout << "0. Back to menu\n";
                     std::cout << "Choose an option: ";
                     std::cin >> settingChoice;
+                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 
                     while (std::cin.fail() || settingChoice < 0 || settingChoice > 2) {
-                        std::cout << "Invalid option. Choose a numberb etween 0 and 2\n";
+                        std::cout << "Invalid option. Choose a number between 0 and 2\n";
                         std::cin.clear();
+                        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                         std::cin >> settingChoice;
                     }
 
@@ -156,9 +162,11 @@ int main() {
                         std::cout << "Type 1 for on and 0 for off: ";
                         int newStateInt;
                         std::cin >> newStateInt;
+                        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                         while (std::cin.fail() || (newStateInt != 0 && newStateInt != 1)) {
                             std::cout << "Invalid input. Choose 1 for on and 0 for off: ";
                             std::cin.clear();
+                            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                             std::cin >> newStateInt;
                         }
                         settings.getSoundEnabledDisabled().updateValue(static_cast<bool>(newStateInt));
@@ -172,9 +180,11 @@ int main() {
                         std::cout << "New threshold: ";
                         int newThreshold;
                         std::cin >> newThreshold;
+                        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                         while (std::cin.fail() || newThreshold < 0) {
                             std::cout << "Invalid input. Please choose a positive number: ";
                             std::cin.clear();
+                            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
                             std::cin >> newThreshold;
                         }
                         settings.getBeResponsibleThreshold().updateValue(newThreshold);
