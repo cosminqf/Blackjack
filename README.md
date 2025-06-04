@@ -51,11 +51,11 @@ La pornire, vei vedea meniul principal:
 
 MENU
 
-Start Game
-View Rules
-Settings
-Exit 
-Choose an option:
+*Start Game
+*View Rules
+*Settings
+*Exit 
+*Choose an option:
 
 * **1. Start Game**: Începe o nouă sesiune de Blackjack. Jocul va continua până când decizi să ieși sau balanța ta scade sub pragul de responsabilitate.
 * **2. View Rules**: Afișează un set de reguli predefinite.
