@@ -50,12 +50,11 @@ Pentru a compila și rula acest proiect, vei avea nevoie de un compilator C++ (c
 La pornire, vei vedea meniul principal:
 
 MENU
-
-*Start Game
-*View Rules
-*Settings
-*Exit 
-*Choose an option:
+1. Start Game
+2. View Rules
+3. Settings
+0. Exit
+Choose an option:
 
 * **1. Start Game**: Începe o nouă sesiune de Blackjack. Jocul va continua până când decizi să ieși sau balanța ta scade sub pragul de responsabilitate.
 * **2. View Rules**: Afișează un set de reguli predefinite.
